@@ -15,18 +15,33 @@
       margin: auto;
   }
   </style>
+  <style>
+  .navbar-default {
+  background-color:orange;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+ .body{
+  background-color:green;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+ </style>
 </head>
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Books</a>
+    
+
+
+      <a class="navbar-brand" href="#">jewellery</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">LOGIN</a></li>
-      <li><a href="#">SIGNUP</a></li>
-      <li><a href="#">PRODUCTS</a></li>
+      <li class="active"><a href=""> home </a></li>
+      <li><a href="login.jsp">LOGIN</a></li>
+      <li><a href="signup.jsp">SIGNUP</a></li>
+      <li><a href="products.jsp">PRODUCTS</a></li>
     </ul>
   </div>
 </nav>
@@ -45,15 +60,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="1.jpg" width="460" height="345">
+        <img src=" images/1.jpg" width="300" height="200">
       </div>
 
       <div class="item">
-        <img src="2.jpg" width="460" height="345">
+        <img src="images/2.jpg" width="200" height="350">
       </div>
     
       <div class="item">
-        <img src="3.jpg" width="460" height="345">
+        <img src="images/3.jpg" width="250" height="350">
       </div>
 
     </div>
@@ -74,20 +89,32 @@
   
   <div class="row">
     <div class="col-md-4">
-      <a href="4.jpg" class="thumbnail">
-        <img src="4.jpg" style="width:250px;height:350px">
+      <a href="images/4.jpg" class="thumbnail">
+        <img src="images/4.jpg" style="width:250px;height:350px">
       </a>
     </div>
     <div class="col-md-4">
-      <a href="6.jpg" class="thumbnail">
-        <img src="6.jpg" style="width:250px;height:350px">
+      <a href="images/5.jpg" class="thumbnail">
+        <img src="images/5.jpg" style="width:250px;height:350px">
       </a>
     </div>
     <div class="col-md-4">
-      <a href="7.jpg" class="thumbnail">
-        <img src="7.jpg" style="width:250px;height:350px">
+      <a href="images/6.jpg" class="thumbnail">
+        <img src="images/6.jpg" style="width:250px;height:350px">
       </a>
     </div>
+    <div class="col-md-4">
+      <a href="images/7.jpg" class="thumbnail">
+        <img src="images/7.jpg" style="width:250px;height:350px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="images/8.jpg" class="thumbnail">
+        <img src="images/8.jpg" style="width:250px;height:350px">
+      </a>
+    </div>
+    
+    
   </div>
 </div>
 
