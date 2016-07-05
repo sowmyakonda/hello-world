@@ -24,11 +24,16 @@
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="home.html">Home</a></li>
-      <li><a href="login.html">LOGIN</a></li>
+      <li><a href="login">LOGIN</a></li>
       <li><a href="signup">SIGNUP</a></li>
       <li><a href="product">Add product</a></li>
-      <li><a href="customercare.html">CUSTOMER CARE</a></li>
-       <li><a href="category">category</a></li>
+       <li><a href="viewproduct">Products</a></li>
+      <li><a href="customercare">CUSTOMER CARE</a></li>
+       <li><a href="category"> Add category</a></li>
+        <li><a href="viewcategory">category</a></li>
+     <li><a href="supplier">Add supplier</a></li>
+     <li><a href="viewsupplier">supplier</a></li>
+     
      
     </ul>
   </div>
@@ -49,11 +54,11 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="10.jpg" width="460" height="345">
+        <img src="images/1.jpg" width="460" height="345">
       </div>
 
       <div class="item">
-        <img src="2.jpg" width="460" height="345">
+        <img src="resources/2.jpg" width="460" height="345">
       </div>
     
       <div class="item">

@@ -1,19 +1,25 @@
 package com.niit.webproject.model;
 
 import javax.persistence.Column;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
 @Entity
-@Table(name="Product")
+@Table(name="Product1")
 public class ProductModel {
 	
 	@Column
 		private String productname;
 	@Id
 	@Column
-	private String productid;
+	private int productid;
+	public int getProductid() {
+		return productid;
+	}
+	public void setProductid(int productid) {
+		this.productid = productid;
+	}
 	@Column
 	private String productsize;
 	@Column
@@ -24,12 +30,12 @@ public class ProductModel {
 	public void setProductname(String productname) {
 		this.productname = productname;
 	}
-	public String getProductid() {
+	/*public String getProductid() {
 		return productid;
 	}
 	public void setProductid(String productid) {
 		this.productid = productid;
-	}
+	}*/
 	public String getProductsize() {
 		return productsize;
 	}

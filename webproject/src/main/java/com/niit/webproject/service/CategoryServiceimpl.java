@@ -1,5 +1,8 @@
 package com.niit.webproject.service;
 
+import java.util.List;
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,5 +17,12 @@ public class CategoryServiceimpl implements CategoryService {
 	{
 		categoryDAO.insertCategoryModel(u);
 	}
-
+	public List<CategoryModel> getCategoryList() {
+		// TODO Auto-generated method stub
+		System.out.println("In SERVICE");
+		List<CategoryModel> a=categoryDAO.getCategoryList();
+		System.out.println(a);
+		return a;
+	
+	}
 }

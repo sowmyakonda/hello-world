@@ -1,10 +1,13 @@
 package com.niit.webproject.service;
 
+import java.util.List;
+
 import com.niit.webproject.model.ProductModel;
 
-public interface ProductService{
-		public void insertProductModel(ProductModel u);
+public interface ProductService {
+	public void insertProductModel(ProductModel u);
+	List<ProductModel> getProductList();
+	//void remove(Integer pid);
+	void update(ProductModel p);
 
-	}
-
-
+}
